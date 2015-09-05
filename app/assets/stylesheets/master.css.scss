@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
@@ -12,6 +13,12 @@ body {
   background: image-url('slash_it.png');
   border-radius: 0;
   box-shadow: 0px 1px 3px #2a2a2a;
+
+  .navbar-brand {
+    color: #E3E85A;
+    font-family: spartan, sans-serif;
+    font-size: 30px;
+  }
 }
 
 .booyah-box {
