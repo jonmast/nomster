@@ -5,6 +5,7 @@ gem 'rails', '4.2.4'
 gem 'pg'
 gem 'kaminari'
 gem 'bootstrap-kaminari-views'
+gem 'simple_form'
 
 gem 'sass-rails', '~> 5.0'
 gem 'bootstrap-sass', '~> 3.3.4'
