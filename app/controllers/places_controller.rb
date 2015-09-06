@@ -1,4 +1,5 @@
 class PlacesController < ApplicationController
+  before_action :authenticate_user!, only: [:new, :create]
   def index
     @places = Place.page(params[:page]).per(10)
   end
@@ -8,8 +9,8 @@ class PlacesController < ApplicationController
   end
 
   def create
-    @place = Place.new(place_params)
-    if place.save
+    @place = current_user.places.new(place_params)
+    if @place.save
       redirect_to root_path
     else
       render :new
