@@ -9,6 +9,7 @@ gem 'simple_form'
 gem 'devise'
 gem 'geocoder'
 gem 'figaro'
+gem 'rails_12factor', group: :production
 
 gem 'sass-rails', '~> 5.0'
 gem 'bootstrap-sass', '~> 3.3.4'
@@ -16,9 +17,6 @@ gem 'bootstrap-sass', '~> 3.3.4'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
-
-
-
 
 group :development, :test do
   gem 'byebug'
@@ -30,4 +28,3 @@ group :development do
   gem 'guard-livereload', require: false
   gem 'rack-livereload'
 end
-
