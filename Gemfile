@@ -7,6 +7,8 @@ gem 'kaminari'
 gem 'bootstrap-kaminari-views'
 gem 'simple_form'
 gem 'devise'
+gem 'geocoder'
+gem 'figaro'
 
 gem 'sass-rails', '~> 5.0'
 gem 'bootstrap-sass', '~> 3.3.4'
