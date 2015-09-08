@@ -36,3 +36,10 @@ body {
 .center-pagination {
   text-align: center;
 }
+
+.field_with_errors {
+  @extend .has-error;
+}
+.error {
+  @extend .help-block;
+}
