@@ -30,4 +30,5 @@ group :development do
   gem 'spring'
   gem 'guard-livereload', require: false
   gem 'rack-livereload'
+  gem 'letter_opener'
 end
