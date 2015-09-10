@@ -69,3 +69,14 @@ body {
 .clear {
   clear: both;
 }
+
+.photo {
+  margin: 0 auto;
+  img {
+    max-width: 100%;
+  }
+  figcaption {
+    padding-top: 15px;
+    padding-bottom: 20px
+  }
+}
