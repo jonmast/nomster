@@ -87,4 +87,5 @@ Rails.application.configure do
     :authentication => :plain,
   }
   ActionMailer::Base.delivery_method = :smtp
+  config.active_job.queue_adapter = :sidekiq
 end
