@@ -13,6 +13,8 @@ gem 'rails_12factor', group: :production
 gem 'carrierwave'
 gem 'mini_magick'
 gem 'fog'
+gem 'sidekiq'
+gem 'puma'
 
 gem 'sass-rails', '~> 5.0'
 gem 'bootstrap-sass', '~> 3.3.4'
