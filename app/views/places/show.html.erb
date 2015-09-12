@@ -31,12 +31,16 @@ function initMap() {
     <div id="photos">
       <h2>Photos</h2>
       <% @place.photos.each do |photo| %>
-        <figure class="photo">
-            <%= image_tag photo.picture %>
-          <figcaption>
-            <%= photo.caption %>
-          </figcaption>
-        </figure>
+        <div class="col-sm-3">
+          <figure class="photo thumbnail">
+            <%= link_to photo.picture.url, class: 'fancy-box', rel: 'fancybox-thumb' do %>
+              <%= image_tag photo.picture.thumb %>
+            <% end %>
+            <figcaption class="caption">
+              <%= photo.caption %>
+            </figcaption>
+          </figure>
+        </div>
       <% end %>
     </div>
   <% end %>

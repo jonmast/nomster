@@ -71,16 +71,6 @@ body {
   clear: both;
 }
 
-.photo {
-  margin: 0 auto;
-  img {
-    max-width: 100%;
-  }
-  figcaption {
-    padding-top: 15px;
-    padding-bottom: 20px
-  }
-}
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     height: 650px;
     width: 100%;
@@ -97,4 +87,7 @@ body {
 }
 .carousel {
   box-shadow: 0px 3px 8px #2a2a2a;
+}
+.caption {
+  text-align: center;
 }

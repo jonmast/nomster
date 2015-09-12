@@ -1,4 +1,8 @@
-@import "bootstrap-sprockets";
-@import "bootstrap";
+/*
+ *= require fancybox
+ */
+
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
 @import 'fonts';
-@import "master";
+@import 'master';

@@ -12,5 +12,6 @@
 //
 //= require jquery
 //= require bootstrap-sprockets
+//= require fancybox
 //= require jquery_ujs
 //= require_tree .
