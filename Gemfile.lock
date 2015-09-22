@@ -84,6 +84,11 @@ GEM
     eventmachine (1.0.7)
     excon (0.45.4)
     execjs (2.6.0)
+    factory_girl (4.5.0)
+      activesupport (>= 3.0.0)
+    factory_girl_rails (4.5.0)
+      factory_girl (~> 4.5.0)
+      railties (>= 3.0.0)
     fancybox2-rails (0.2.8)
       railties (>= 3.1.0, < 5.0)
     ffi (1.9.6)
@@ -344,6 +349,7 @@ DEPENDENCIES
   carrierwave
   coffee-rails (~> 4.1.0)
   devise
+  factory_girl_rails
   fancybox2-rails
   figaro
   fog

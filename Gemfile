@@ -26,6 +26,7 @@ gem 'fancybox2-rails'
 
 group :development, :test do
   gem 'byebug'
+  gem 'factory_girl_rails'
 end
 
 group :development do
